@@ -1,21 +1,21 @@
 /* =========================================================
    Block Restoration Limited — Funnel styles
-   Palette inspired by blockrestoration.co.uk:
-   heritage charcoal + warm cream + brick accent.
+   Brand palette from blockrestoration.co.uk:
+   brand orange (#ea6a20) + deep navy (#123a4b) on white/light-grey.
    Mobile-first. Vanilla CSS only.
    ========================================================= */
 
 :root {
-  --ink:        #1b1b1d;   /* near-black text / dark sections (brand charcoal) */
-  --charcoal:   #26262a;
-  --cream:      #f5f2ec;   /* off-white background */
-  --cream-2:    #ece7de;
-  --brick:      #cf2e24;   /* Block Restoration brand red — accent / buttons */
-  --brick-dark: #b0231b;   /* hover (~10% darker) */
-  --line:       #d9d3c8;
-  --muted:      #6a655d;
+  --ink:        #123a4b;   /* Block Restoration deep navy — dark sections + headings */
+  --charcoal:   #0f3341;   /* slightly deeper navy for contrast panels */
+  --cream:      #f5f6f7;   /* near-white background */
+  --cream-2:    #e9ecee;   /* light-grey section background */
+  --brick:      #ea6a20;   /* Block Restoration brand orange — accent / buttons */
+  --brick-dark: #cf5a15;   /* hover (~10% darker) */
+  --line:       #dce0e3;
+  --muted:      #5b6670;
   --white:      #ffffff;
-  --gold:       #c8a15a;   /* stars / subtle accents */
+  --gold:       #f2b01e;   /* Google review stars / subtle accents */
 
   --wrap: 1120px;
   --radius: 4px;
@@ -92,7 +92,7 @@ h2 { font-size: 28px; }
   position: relative;
   width: 100%;
   min-height: 420px;
-  background-color: #2c2822;
+  background-color: #123a4b;
   background-image:
     linear-gradient(rgba(26,24,21,.30), rgba(26,24,21,.30)),
     repeating-linear-gradient(0deg,  #3a352d 0 38px, #322d26 38px 40px),
@@ -123,7 +123,7 @@ h2 { font-size: 28px; }
   display: flex; align-items: center;
   padding: 90px 0;
   color: var(--white);
-  background-color: #1a1815;
+  background-color: #123a4b;
   background-image:
     linear-gradient(rgba(20,18,15,.62), rgba(20,18,15,.72)),
     repeating-linear-gradient(0deg,  #3a352d 0 44px, #322d26 44px 47px),
@@ -133,7 +133,7 @@ h2 { font-size: 28px; }
 }
 .hero .wrap { position: relative; z-index: 2; }
 .hero-inner { max-width: 780px; margin: 0 auto; text-align: center; }
-.hero .eyebrow { color: var(--gold); }
+.hero .eyebrow { color: #f4a45c; }
 
 /* Real photo heroes (swap url() to change the hero image) */
 .hero--brick {
@@ -320,6 +320,7 @@ h2 { font-size: 28px; }
 /* ---------- Footer ---------- */
 footer { background: var(--ink); color: rgba(255,255,255,.7); padding: 48px 0 40px; }
 footer .f-brand { color: #fff; font-weight: 800; font-size: 20px; letter-spacing: .02em; }
+footer .f-tag { color: var(--brick); font-weight: 700; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; margin: 6px 0 0; }
 footer .f-desc { max-width: 420px; margin: 10px 0 20px; font-size: 14.5px; }
 footer .f-links { display: flex; gap: 22px; flex-wrap: wrap; margin-bottom: 18px; }
 footer .f-links a { color: rgba(255,255,255,.85); text-decoration: none; font-size: 14.5px; }
