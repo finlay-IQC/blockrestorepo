@@ -301,7 +301,7 @@ h2 { font-size: 28px; }
   max-width: 720px; margin: 34px auto 0;
   box-shadow: var(--shadow);
 }
-.form-card iframe { width: 100%; min-height: 800px; border: none; border-radius: 6px; display: block; }
+.form-card iframe { width: 100%; min-height: 820px; height: 820px; border: none; border-radius: 6px; display: block; }
 .form-fallback {
   padding: 40px 24px; text-align: center; color: var(--ink);
   border: 2px dashed var(--line); border-radius: 6px;
