@@ -164,6 +164,11 @@ h2 { font-size: 28px; }
   max-width: 620px; margin: 0 auto 26px;
 }
 .hero .cta-row { max-width: 420px; margin: 0 auto; }
+.index-choices { display: flex; flex-direction: column; gap: 14px; max-width: 480px; margin: 8px auto 0; }
+@media (min-width: 700px) {
+  .index-choices { flex-direction: row; max-width: 640px; }
+  .index-choices .btn { flex: 1; }
+}
 .hero .img-label { color: rgba(255,255,255,.4); }
 
 /* Trust strip inside hero */
