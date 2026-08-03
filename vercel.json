@@ -1,0 +1,20 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/Brickwork.html", "destination": "/brickwork", "permanent": false },
+    { "source": "/brickwork.html", "destination": "/brickwork", "permanent": false },
+    { "source": "/Redecorating.html", "destination": "/redecorating", "permanent": false },
+    { "source": "/redecorating.html", "destination": "/redecorating", "permanent": false },
+    { "source": "/thank-you.html", "destination": "/thank-you", "permanent": false },
+    { "source": "/privacy.html", "destination": "/privacy", "permanent": false },
+    { "source": "/terms.html", "destination": "/terms", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/brickwork", "destination": "/Brickwork.html" },
+    { "source": "/redecorating", "destination": "/Redecorating.html" },
+    { "source": "/thank-you", "destination": "/thank-you.html" },
+    { "source": "/privacy", "destination": "/privacy.html" },
+    { "source": "/terms", "destination": "/terms.html" }
+  ]
+}
