@@ -23,17 +23,13 @@
 <body>
   <!-- TRACKING BODY CODES GO HERE: GTM Body noscript, etc. -->
 
-  <!--
-    CONVERSION EVENT GOES HERE: Fire Meta "Schedule" / "Lead" event, Google Ads
-    conversion, GA4 event, etc. This page loads only after a completed enquiry,
-    so it is the correct place to fire the booked-call conversion.
-    Example (uncomment and replace when tags are provided):
-    <script>
-      // fbq('track', 'Schedule');
-      // gtag('event', 'conversion', { 'send_to': 'AW-XXXXXXX/XXXX' });
-      // dataLayer.push({ event: 'booked_call' });
-    </script>
-  -->
+  <!-- CONVERSION EVENT — this page loads only after a completed enquiry,
+       so firing here counts one Google Ads conversion per booked enquiry.
+       Add Meta/GA4 conversion events here too if needed later. -->
+  <!-- Event snippet for Lead – Book Site Visit conversion -->
+  <script>
+    gtag('event', 'conversion', {'send_to': 'AW-18330206075/ILszCNOh6N0cEPv-wqRE'});
+  </script>
 
   <!-- ============ HERO ============ -->
   <header class="ty-hero ty-hero--photo">
