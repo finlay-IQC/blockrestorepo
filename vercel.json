@@ -6,6 +6,9 @@
     { "source": "/brickwork.html", "destination": "/brickwork", "permanent": false },
     { "source": "/Redecorating.html", "destination": "/redecorating", "permanent": false },
     { "source": "/redecorating.html", "destination": "/redecorating", "permanent": false },
+    { "source": "/restoration", "destination": "/", "permanent": false },
+    { "source": "/Restoration.html", "destination": "/", "permanent": false },
+    { "source": "/restoration.html", "destination": "/", "permanent": false },
     { "source": "/thank-you.html", "destination": "/thank-you", "permanent": false },
     { "source": "/privacy.html", "destination": "/privacy", "permanent": false },
     { "source": "/terms.html", "destination": "/terms", "permanent": false }
