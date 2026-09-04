@@ -6,8 +6,9 @@
     { "source": "/brickwork.html", "destination": "/brickwork", "permanent": false },
     { "source": "/Redecorating.html", "destination": "/redecorating", "permanent": false },
     { "source": "/redecorating.html", "destination": "/redecorating", "permanent": false },
-    { "source": "/Restoration.html", "destination": "/restoration", "permanent": false },
-    { "source": "/restoration.html", "destination": "/restoration", "permanent": false },
+    { "source": "/restoration", "destination": "/", "permanent": false },
+    { "source": "/Restoration.html", "destination": "/", "permanent": false },
+    { "source": "/restoration.html", "destination": "/", "permanent": false },
     { "source": "/thank-you.html", "destination": "/thank-you", "permanent": false },
     { "source": "/privacy.html", "destination": "/privacy", "permanent": false },
     { "source": "/terms.html", "destination": "/terms", "permanent": false }
@@ -15,7 +16,6 @@
   "rewrites": [
     { "source": "/brickwork", "destination": "/Brickwork.html" },
     { "source": "/redecorating", "destination": "/Redecorating.html" },
-    { "source": "/restoration", "destination": "/restoration.html" },
     { "source": "/thank-you", "destination": "/thank-you.html" },
     { "source": "/privacy", "destination": "/privacy.html" },
     { "source": "/terms", "destination": "/terms.html" }
